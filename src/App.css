@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.file-info-container {
+  background-color: #1a1d23;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  padding: 2rem;
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.file-icon {
+  margin-right: 2rem;
+  color: #61dafb;
+}
+
+.file-details {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.file-details h2 {
+  color: #61dafb;
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.viewer-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem;
+}
+
+.auth-message {
+  background-color: #1a1d23;
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: left;
+}
+
+.auth-message ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.auth-message li {
+  margin: 0.5rem 0;
+  color: #8b949e;
+}
+
+.auth-button {
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #4fa8d5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5rem 0;
+}
+
+td:first-child {
+  color: #8b949e;
+  padding-right: 1rem;
+  white-space: nowrap;
+}
+
+.note {
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 2rem;
+  color: #8b949e;
+  text-align: left;
+  padding: 1rem;
+  border-left: 3px solid #61dafb;
+  background-color: rgba(97, 218, 251, 0.1);
+} 
